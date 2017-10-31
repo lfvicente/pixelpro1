@@ -56,9 +56,6 @@ end
 
 bankaccount = BankAccount.new("IAM")
 
-# puts bankaccount
-# puts bankaccount.inspect
-
 bankaccount.credit("Nómina", (Random.new.rand(9)+1)*100)
 bankaccount.debit("Cine",  (Random.new.rand(9)+1))
 bankaccount.debit("Gasolina",  (Random.new.rand(9)+1)*10)
