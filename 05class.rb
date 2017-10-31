@@ -1,4 +1,4 @@
-# Ctrl + ç cmenta el código
+# Ctrl + ç comenta el código
 
 class MyName #CamelCase
     # Getter en ruby

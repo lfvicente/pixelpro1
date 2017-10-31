@@ -18,17 +18,17 @@ class MyName #CamelCase
         @last_name 
     end
 
-    
     def full_name_title
         @title + " " + full_name
     end
+
+    def to_s #Sobreescribe el método to_s
+        full_name_title
+    end
+
 end
 
 name = MyName.new("Mr.", "Luis", "", "Vicente Díez")
 
-name.title="Dr."
-
-puts name.full_name
-puts name.full_name_title
-
-
+puts name.inspect
+puts name
